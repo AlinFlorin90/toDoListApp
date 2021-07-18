@@ -5,3 +5,9 @@ export const Container = styled.div`
     height: 5vh;
     background-color: grey;
 `
+
+export const Paragraf = styled.p`
+    color: black;
+    font-size: small;
+    text-align: center;
+`
