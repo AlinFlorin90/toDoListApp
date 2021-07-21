@@ -38,6 +38,7 @@ export const InputLogForm = styled.input`
 `
 
 export const Submit = styled.button`
+    cursor: pointer;
     width: 90px;
     height: 25px;
     background-color: whitesmoke;

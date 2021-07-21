@@ -42,6 +42,7 @@ export const Submit = styled.button`
     border-radius: 50px;
     border-color: blue;
     margin-top: 30px;
+    cursor: pointer;
 `
 export const Question = styled.div`
     width: 50vw;
@@ -57,4 +58,5 @@ export const ButonLogin = styled.button`
     font-size: xx-large;
     background-color: lightskyblue;
     border: none;
+    cursor: pointer;
 `

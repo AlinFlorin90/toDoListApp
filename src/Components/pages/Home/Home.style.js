@@ -36,13 +36,14 @@ export const Container3 = styled.div`
     margin-top:15px;
 `
 
-/*export const ButonCheck = styled.button`
+export const ButonDelete = styled.button`
     width: 3px;
     height: 16px;
     background-color: red;
-`*/
+`
 
 export const ButonAdd = styled.button`
+    cursor: pointer;
     color: rgb(0, 151, 238);
     width: 45px;
     height: 40px;
@@ -80,7 +81,7 @@ export const Border = styled.div`
     align-self: center;
 `
 
-/*export const Checkbox = styled.input`
+export const Checkbox = styled.input`
     
-`*/
+`
 

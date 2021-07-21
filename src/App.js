@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import axios from "axios";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import Header from "./Components/common/Header/Header";
-import Home from "./Components/pages/Home/Home";
 import Register from "./Components/pages/Register/Register";
 import Login from "./Components/pages/Login/Login";
+import Home from "./Components/pages/Home/Home";
 import Footer from "./Components/common/Footer/Footer";
 import "./App.css";
 
@@ -17,13 +17,13 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/Register">
-          <Register></Register>
+          <Register/>
         </Route>
         <Route exact path="/Login">
-          <Login></Login>
+          <Login/>
         </Route>
         <Route exact path="/">
-          <Home></Home>
+          <Home/>
         </Route>
       </Switch>
     </Router>
